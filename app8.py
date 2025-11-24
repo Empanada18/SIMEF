@@ -111,7 +111,7 @@ with st.sidebar:
 # VISTA: CALCULADORA
 # ==========================================================================================
 if vista == "Calculadora":
-    st.title("📊 Sistema Inteligente de Evaluación de Mecanismos de Falla")
+    st.title("📊  Plataforma Inteligente de Análisis de Causa Raíz - Falla en sistemas de Tuberías")
     st.write("Selecciona los parámetros que deseas ingresar.")
 
     parametros_seleccionados = st.multiselect(
@@ -250,4 +250,5 @@ elif vista == "Tabla / Visual":
     for m, datos in datos_mecanismos.items():
         with st.expander(f"{m} - Parámetros"):
             st.table(pd.DataFrame(datos))
+
 
