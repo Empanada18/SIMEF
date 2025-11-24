@@ -13,7 +13,7 @@ def get_base64(img_path):
     return base64.b64encode(data).decode()
 
 # Cargar logo
-img_logo = get_base64("Logo_blanco.png")
+img_logo = get_base64("evo.png")
 # ==========================================================================================
 # BASE COMPLETA DE PARÁMETROS CON OBSERVACIONES
 # ==========================================================================================
@@ -250,3 +250,4 @@ elif vista == "Tabla / Visual":
     for m, datos in datos_mecanismos.items():
         with st.expander(f"{m} - Parámetros"):
             st.table(pd.DataFrame(datos))
+
