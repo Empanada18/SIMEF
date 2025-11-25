@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import base64
-import graphviz  # <--- IMPORTANTE: Necesitas tener esto instalado
+import graphviz  
 
 st.set_page_config(page_title="Análisis de Mecanismos de Falla", layout="wide")
 
@@ -346,3 +346,4 @@ elif vista == "Árbol de Fallas (Master)":
 
     # Mostrar el gráfico ocupando todo el ancho
     st.graphviz_chart(master_graph, width="stretch")
+
