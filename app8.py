@@ -19,7 +19,7 @@ def get_base64(img_path):
         return "" # Retorna vacío si no encuentra la imagen para que no falle
 
 # Cargar logo (Asegúrate de tener la imagen o el código no mostrará el logo)
-img_logo = get_base64("Logo_blanco.png")
+img_logo = get_base64("evo.png")
 
 # ==========================================================================================
 # BASE COMPLETA DE PARÁMETROS
@@ -346,4 +346,5 @@ elif vista == "Árbol de Fallas (Master)":
 
     # Mostrar el gráfico ocupando todo el ancho
     st.graphviz_chart(master_graph, width="stretch")
+
 
