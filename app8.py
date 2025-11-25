@@ -117,7 +117,7 @@ with st.sidebar:
 # VISTA: CALCULADORA
 # ==========================================================================================
 if vista == "Calculadora":
-    st.title("📊 Sistema Inteligente de Evaluación")
+    st.title("📊 Plataforma Inteligente de Análisis de Causa Raíz - Falla en sistemas de Tuberías")
     st.write("Selecciona los parámetros que deseas ingresar.")
 
     parametros_seleccionados = st.multiselect(
@@ -346,5 +346,6 @@ elif vista == "Árbol de Fallas (Master)":
 
     # Mostrar el gráfico ocupando todo el ancho
     st.graphviz_chart(master_graph, width="stretch")
+
 
 
